@@ -1,0 +1,202 @@
+﻿namespace WindowsFormsControlLibrary1
+{
+    partial class UserControl1
+    {
+        /// <summary>
+        /// 必需的设计器变量。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// 清理所有正在使用的资源。
+        /// </summary>
+        /// <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region 组件设计器生成的代码
+
+        /// <summary>
+        /// 设计器支持所需的方法 - 不要修改
+        /// 使用代码编辑器修改此方法的内容。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.panelHeader = new System.Windows.Forms.Panel();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.cogToolBlockEdit = new Cognex.VisionPro.ToolBlock.CogToolBlockEditV2();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.panelHeader.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cogToolBlockEdit)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // panelHeader
+            // 
+            this.panelHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(61)))), ((int)(((byte)(76)))));
+            this.panelHeader.Controls.Add(this.radioButton4);
+            this.panelHeader.Controls.Add(this.radioButton3);
+            this.panelHeader.Controls.Add(this.radioButton2);
+            this.panelHeader.Controls.Add(this.radioButton1);
+            this.panelHeader.Controls.Add(this.button3);
+            this.panelHeader.Controls.Add(this.button1);
+            this.panelHeader.Controls.Add(this.button2);
+            this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelHeader.Location = new System.Drawing.Point(0, 0);
+            this.panelHeader.Name = "panelHeader";
+            this.panelHeader.Size = new System.Drawing.Size(1772, 45);
+            this.panelHeader.TabIndex = 105;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.radioButton3.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.radioButton3.Location = new System.Drawing.Point(265, 14);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(98, 20);
+            this.radioButton3.TabIndex = 102;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "4个定位销";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.Click += new System.EventHandler(this.radioButton3_CheckedChanged);
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.radioButton2.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.radioButton2.Location = new System.Drawing.Point(147, 14);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(98, 20);
+            this.radioButton2.TabIndex = 101;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "3个定位销";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.Click += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Checked = true;
+            this.radioButton1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.radioButton1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.radioButton1.Location = new System.Drawing.Point(29, 14);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(98, 20);
+            this.radioButton1.TabIndex = 100;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "2个定位销";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.Click += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(650, 8);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 33);
+            this.button3.TabIndex = 99;
+            this.button3.Text = "加载图像";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(530, 8);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 33);
+            this.button1.TabIndex = 98;
+            this.button1.Text = "加载工具";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(1633, 6);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 33);
+            this.button2.TabIndex = 97;
+            this.button2.Text = "返回";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.cogToolBlockEdit);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 45);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1772, 925);
+            this.panel1.TabIndex = 106;
+            // 
+            // cogToolBlockEdit
+            // 
+            this.cogToolBlockEdit.AllowDrop = true;
+            this.cogToolBlockEdit.ContextMenuCustomizer = null;
+            this.cogToolBlockEdit.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cogToolBlockEdit.Location = new System.Drawing.Point(0, 0);
+            this.cogToolBlockEdit.MinimumSize = new System.Drawing.Size(489, 0);
+            this.cogToolBlockEdit.Name = "cogToolBlockEdit";
+            this.cogToolBlockEdit.ShowNodeToolTips = true;
+            this.cogToolBlockEdit.Size = new System.Drawing.Size(1772, 925);
+            this.cogToolBlockEdit.SuspendElectricRuns = false;
+            this.cogToolBlockEdit.TabIndex = 1;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.radioButton4.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.radioButton4.Location = new System.Drawing.Point(383, 14);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(122, 20);
+            this.radioButton4.TabIndex = 103;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "涂抹区域溢出";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.Click += new System.EventHandler(this.radioButton4_Click);
+            // 
+            // UserControl1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(61)))), ((int)(((byte)(76)))));
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelHeader);
+            this.Name = "UserControl1";
+            this.Size = new System.Drawing.Size(1772, 970);
+            this.Load += new System.EventHandler(this.ToolSet_Load);
+            this.panelHeader.ResumeLayout(false);
+            this.panelHeader.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.cogToolBlockEdit)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panelHeader;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel1;
+        private Cognex.VisionPro.ToolBlock.CogToolBlockEditV2 cogToolBlockEdit;
+        private System.Windows.Forms.RadioButton radioButton4;
+    }
+}
